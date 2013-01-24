@@ -1,0 +1,17 @@
+{
+    "name": "jQuery.waitFor",
+    "version": "0.1.1",
+    "description": "A jQuery plugin useful for ui testing",
+    "author": "Lars Thorup <lars@zealake.com>",
+    "engine": "node 1.1.x",
+    "devDependencies": {
+        "grunt": "0.4.0rc4",
+        "grunt-contrib-jshint": "https://github.com/gruntjs/grunt-contrib-jshint/archive/7fd70e86c5a8d489095fa81589d95dccb8eb3a46.tar.gz",
+        "grunt-contrib-qunit": "~0.1.0",
+        "grunt-qunit-junit": "~0.1.0"
+    },
+    "scripts": {
+        "preinstall": "npm install grunt-cli@~0.1.6 -g",
+        "test": "grunt --config Gruntfile.js travis"
+    }
+}
