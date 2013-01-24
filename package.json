@@ -12,6 +12,6 @@
     },
     "scripts": {
         "preinstall": "npm install grunt-cli@~0.1.6 -g",
-        "test": "grunt --config Gruntfile.js travis"
+        "test": "grunt --config Gruntfile.js ci"
     }
 }
